@@ -1,3 +1,8 @@
+body{
+  background:url('Kl.jpg');
+  background-size:150vw 100vh;
+  background-repeat:no-repeat;
+}
 #player-image
 { width:500px;
   height:600px;
@@ -67,12 +72,19 @@
 { width:980px;
   height:1670px;
 }
-
+#container{
+  width:110%;
+  height:0vw;
+  overflow:none;
+  background-color:blue;
+}
 #bg
 { width:110%;
-  height:250vw;
+  height:205vw;
   margin-left:-5px;
   margin-top:-10px;
+  overflow:none;
+  display:none;
 }
 #imp1
 { position:absolute;
@@ -139,7 +151,7 @@
 #imp
 { position:absolute;
   top:450px;
-  left:100px;
+  left:60px;
   font-size:65px;
   font-weight:bolder;
   display:none;
@@ -789,6 +801,7 @@
   flex-wrap:wrap;
     gap:15px;
   display:none;
+  
 }
 #click1
 { width:150px;
@@ -1010,8 +1023,8 @@ img
   font-weight:bolder;
 }
 #pls
-{ width:990px;
-  height:2092px;
+{ width:112vw;
+  height:205vw;
   background-color:black;
   position:absolute;
   top:0px;
@@ -1050,8 +1063,8 @@ img
   font-weight:bolder;
 }
 #cls
-{ width:990px;
-  height:2092px;
+{ width:112vw;
+  height:205vw;
   background-color:black;
   position:absolute;
   top:0px;
