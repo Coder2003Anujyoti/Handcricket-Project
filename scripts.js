@@ -110,15 +110,15 @@ function mod()
 }
 function dis()
 { logo.style.display="none";
-bo1.style.display="block";  
-bo2.style.display="block";  
-bo3.style.display="block";  
+bo1.style.display="none";  
+bo2.style.display="none";  
+bo3.style.display="none";  
   varate1();
   
 }
 setTimeout(dis,2000);
 function restart()
-{ window.location.href="file:///storage/emulated/0/2012/index.html";
+{ window.location.reload();
 }
 var indp=0;
 var lofra=0;
@@ -2137,7 +2137,7 @@ function res()
 card.style.display="block";
   card.style.left="320px";
   presult1.style.display="block";
- mode.style.display="block";
+ mode.style.display="none";
 bo1.style.display="none";
   bo2.style.display="none";
   pls.style.display="none";
