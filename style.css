@@ -628,11 +628,11 @@ body{
 }
 
   #logo
-{ width:45vw;
-  height:35vw;
+{ width:700px;
+  height:500px;
   position:relative;
-  top:250vw;
-  left:130vw;
+  top:500px;
+  left:130px;
   background-color:green;
   border-radius:100%;
   font-size:160px;
