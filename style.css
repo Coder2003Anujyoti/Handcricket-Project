@@ -630,7 +630,7 @@ body{
   #logo
 { width:700px;
   height:500px;
-  position:absolute;
+  position:relative;
   top:500px;
   left:130px;
   background-color:green;
