@@ -827,12 +827,12 @@
   font-weight:bolder;
 }
 #card
-{ font-size:65px;
+{ font-size:55px;
   position:absolute;
   left:320px;
-  top:30px;
+  top:60px;
   text-decoration:underline;
-  text-underline-offset:15px;
+  text-underline-offset:20px;
   color:white;
   display:none;
 }
