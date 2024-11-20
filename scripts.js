@@ -95,6 +95,8 @@ var mode=document.getElementById('mode');
 var bo1=document.getElementById('bo1');
 var bo2=document.getElementById('bo2');
 var bo3=document.getElementById('bo3');
+
+
 bo1.addEventListener("click",
   function()
   { window.location.href="file:///storage/emulated/0/Music/gapoa.html";
@@ -104,15 +106,15 @@ bo2.addEventListener("click",
   { window.location.href="file:///storage/emulated/0/2012/index.html";
   });
 
-
 function mod()
 { window.location.href="file:///storage/emulated/0/Music/gapoa.html";
 }
+
 function dis()
 { logo.style.display="none";
-bo1.style.display="none";  
-bo2.style.display="none";  
-bo3.style.display="none";  
+//bo1.style.display="block";  
+//bo2.style.display="block";  
+//bo3.style.display="block";  
   varate1();
   
 }
@@ -1879,7 +1881,7 @@ function fav()
   
 }
 function scop1()
-{ result.style.display="none";
+{ results.style.display="none";
 mode.style.display="none";
   pscore.style.display="flex";
   pback.style.display="block";
@@ -1901,19 +1903,19 @@ cresult.style.display="none";
     open.style.display="block";
     open1.style.display="none";
    reload.style.display="block";
-  result.style.display="flex";
- mode.style.display="none";
+  results.style.display="flex";
+// mode.style.display="block";
     pscore.style.display="none";
   pback.style.display="none";
     card.style.display="block";
     card.innerHTML="Scorecard";
   card.style.left="320px";
     presult1.style.display="block";
-  bo3.style.display="none";
+ // bo3.style.display="block";
   cresult1.style.display="none";
   });
 cresult1.addEventListener('click',function(){
- result.style.display="none";
+ results.style.display="none";
   bo3.style.display="none";
 mode.style.display="none";
   cscore.style.display="flex";
@@ -1932,7 +1934,7 @@ mode.style.display="none";
   cresult1.style.display="none";
 });
   cback.addEventListener('click',function(){
-    result.style.display="none";
+    results.style.display="none";
     bo3.style.display="none";
  mode.style.display="none";
   pscore.style.display="flex";
@@ -1957,7 +1959,7 @@ mode.style.display="none";
 
 
 function anu()
-{ result.style.display="none";
+{ results.style.display="none";
   bo3.style.display="none";
  mode.style.display="none";
   pscore.style.display="flex";
@@ -1982,8 +1984,8 @@ cresult.style.display="none";
     open.style.display="block";
     open1.style.display="none";
    reload.style.display="block";
-  result.style.display="flex";
- mode.style.display="none";
+  results.style.display="flex";
+ //mode.style.display="block";
    pscore.style.display="none";
     card.style.display="block";
     card.innerHTML="Scorecard";
@@ -1991,10 +1993,10 @@ cresult.style.display="none";
     presult1.style.display="block";
   cresult1.style.display="none";
     pback.style.display="none";
-    bo3.style.display="none";
+   // bo3.style.display="block";
   });
 open1.addEventListener('click',function(){
- result.style.display="none";
+ results.style.display="none";
 mode.style.display="none";
   cscore.style.display="flex";
   cback.style.display="block";
@@ -2019,7 +2021,7 @@ mode.style.display="none";
   bo3.style.display="none";
 });
   cback.addEventListener('click',function(){
-    result.style.display="none";
+    results.style.display="none";
  mode.style.display="none";
   pscore.style.display="flex";
   pback.style.display="block";
@@ -2044,7 +2046,7 @@ mode.style.display="none";
   });
 }
 function scop()
-{ result.style.display="none";
+{ results.style.display="none";
   bo3.style.display="none";
 mode.style.display="none";
   pscore.style.display="flex";
@@ -2061,14 +2063,14 @@ mode.style.display="none";
   presult1.style.display="none";
   cresult1.style.display="none";
   pback.addEventListener('click',function(){
-     bo3.style.display="none";
+     //bo3.style.display="block";
 presult.style.display="block";
 cresult.style.display="none";
     open.style.display="block";
     open1.style.display="none";
    reload.style.display="block";
-  result.style.display="flex";
- mode.style.display="none";
+  results.style.display="flex";
+ //mode.style.display="block";
     pscore.style.display="none";
   pback.style.display="none";
     card.style.display="block";
@@ -2078,7 +2080,7 @@ cresult.style.display="none";
   cresult1.style.display="none";
   });
   cresult.addEventListener('click',function(){
- result.style.display="none";
+ results.style.display="none";
     bo3.style.display="none";
   mode.style.display="none";
   cscore.style.display="flex";
@@ -2099,7 +2101,7 @@ cresult.style.display="none";
   cback.addEventListener('click',function(){
     cscore.style.display="none";
   cback.style.display="none";
-    result.style.display="none";
+    results.style.display="none";
     bo3.style.display="none";
  mode.style.display="none";
   pscore.style.display="flex";
@@ -2125,19 +2127,16 @@ function dof()
 function res()
 { let laura=document.getElementById('laura');
   reload.style.display="block";
-  result.style.display="flex";
+  results.style.display="flex";
   container.style.display="none";
   laura.style.display="none";
   presult.style.display="block";
  open.style.display="block";
-  result.style.top="200px";
-    result.style.left="100px";
-    result.style.width="750px";
-    result.style.height="500px";
+  
 card.style.display="block";
   card.style.left="320px";
   presult1.style.display="block";
- mode.style.display="none";
+ //mode.style.display="block";
 bo1.style.display="none";
   bo2.style.display="none";
   pls.style.display="none";
@@ -2151,13 +2150,13 @@ bo1.style.display="none";
  
   if(totalp>totalc)
   {  
-      result.innerHTML=pl+" win by "+(totalp-totalc)+" runs <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
+      results.innerHTML=pl+" win by "+(totalp-totalc)+" runs <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
 
   }
   if(totalp< totalc)
   {
     
-    result.innerHTML=co+" win by "+(10-wkc)+" wickets <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
+    results.innerHTML=co+" win by "+(10-wkc)+" wickets <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
     
   }
   }
@@ -2167,19 +2166,19 @@ bo1.style.display="none";
   if(totalp>totalc)
   {  
    
-      result.innerHTML=pl+" win by "+(10-wkp)+" wickets <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
+      results.innerHTML=pl+" win by "+(10-wkp)+" wickets <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
 
   }
   if(totalp< totalc)
   { 
     
-    result.innerHTML=co+" win by "+(totalc-totalp)+" runs <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
+    results.innerHTML=co+" win by "+(totalc-totalp)+" runs <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
     
   }
   }
   
     if(totalp==totalc)
-  { result.innerHTML="Match Draw <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
+  { results.innerHTML="Match Draw <br>"+pl+"-: "+totalp+"/"+wkp+koya+"<br>"+co+"-: "+totalc+"/"+wkc+moya;
     
   }
 }
@@ -2394,12 +2393,6 @@ p1=document.getElementById('p1');
     
        
     pic.innerHTML="<img src='"+csk[j]+".jpg'>";
-    result.style.position="absolute";
-    result.style.top="690px";
-    result.style.left="130px";
-    result.style.width="700px";
-    result.style.height="250px";
-    pic.style.top="180px";
     pscore.style.display="none";
     pback.style.display="none";
   function go()
@@ -2660,12 +2653,7 @@ p1=document.getElementById('p1');
      dev[index]=op;
  container.style.display="none";
     pic.innerHTML="<img src='"+dd1[j]+".jpg'>";
-    result.style.position="absolute";
-    result.style.top="690px";
-    result.style.left="130px";
-    result.style.width="700px";
-    result.style.height="250px";
-    pic.style.top="180px";
+    
    function go()
     {
     
@@ -3165,5 +3153,4 @@ if(totalcount%6==0)
 
 
 }
-
 
