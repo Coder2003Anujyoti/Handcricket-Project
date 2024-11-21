@@ -1164,8 +1164,8 @@ img
 }
 #pls1
 { position:absolute;
-  top:150px;
-  left:250px;
+  top:250px;
+  left:150px;
   text-decoration:underline;
   text-underline-offset:16px;
   font-weight:bolder;
@@ -1206,8 +1206,8 @@ img
 }
 #cls1
 { position:absolute;
-  top:150px;
-  left:250px;
+  top:250px;
+  left:150px;
   text-decoration:underline;
   text-underline-offset:16px;
   font-weight:bolder;
@@ -1769,7 +1769,7 @@ body{
 #Player
 { position:absolute;
   font-size:45px;
-  left:130px;
+  left:105px;
   top:15px;
   display:block;
   color:white;
