@@ -1813,12 +1813,12 @@ body{
 }
 #demo
 { width:550px;
-  height:50px;
+  height:80px;
   background-color:aqua;
   position:absolute;
   left:380px;
-  top:50px;
-  font-size:25px;
+  top:20px;
+  font-size:30px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -1828,12 +1828,12 @@ body{
 }
 #demo1
 { width:350px;
-  height:50px;
+  height:70px;
   background-color:hotpink;
   position:absolute;
   left:490px;
-  top:500px;
-  font-size:25px;
+  top:460px;
+  font-size:30px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -1842,13 +1842,13 @@ body{
   display:none;
 }
 #laura
-{ width:250px;
-  height:50px;
+{ width:350px;
+  height:70px;
   background-color:aqua;
   position:absolute;
-  top:570px;
-  left:540px;
-  font-size:25px;
+  top:550px;
+  left:490px;
+  font-size:30px;
   font-weight:bolder;
   justify-content:center;
   align-items:center;
