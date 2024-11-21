@@ -1827,12 +1827,12 @@ body{
   display:none;
 }
 #demo1
-{ width:350px;
-  height:70px;
+{ width:450px;
+  height:80px;
   background-color:hotpink;
   position:absolute;
-  left:490px;
-  top:460px;
+  left:430px;
+  top:450px;
   font-size:30px;
   display:flex;
   justify-content:center;
