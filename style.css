@@ -1462,7 +1462,7 @@ body{
   display:none;
 }
 #pcsk,#pcsk1
-{ width:130px;
+{ width:150px;
   height:250px;
   
 }
@@ -1585,7 +1585,7 @@ body{
   color:white;
 }
 #prr,#prr1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #trr1,#trr
@@ -1601,7 +1601,7 @@ body{
   gap:15px;
 }
 #prcb,#prcb1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #trcb1,#trcb
@@ -1617,7 +1617,7 @@ body{
   gap:15px;
 }
 #ppwi,#ppwi1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tpwi1,#tpwi
@@ -1634,7 +1634,7 @@ body{
 }
 
 #pkkr,#pkkr1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tkkr1,#tkkr
@@ -1650,7 +1650,7 @@ body{
   gap:15px;
 }
 #psrh,#psrh1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tsrh1,#tsrh
@@ -1666,7 +1666,7 @@ body{
   gap:15px;
 }
 #pkxip,#pkxip1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tkxip1,#tkxip
@@ -1682,7 +1682,7 @@ body{
   gap:15px;
 }
 #pmi,#pmi1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tmi1,#tmi
@@ -1698,7 +1698,7 @@ body{
   gap:15px;
 }
 #pdd,#pdd1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tdd1,#tdd
