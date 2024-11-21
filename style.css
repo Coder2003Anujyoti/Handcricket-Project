@@ -27,7 +27,7 @@ body{
   display:none;
   z-index:1;
   gap:35px;
- border:2px solid white;
+  border:2px solid white;
 }
 #player-name
 { font-size:65px;
