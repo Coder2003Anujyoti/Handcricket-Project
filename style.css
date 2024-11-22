@@ -1962,7 +1962,7 @@ body{
   display:none;
 }
 #pscore
-{ width:350px;
+{ width:750px;
   height:500px;
   background-color:aqua;
   font-size:30px;
@@ -1970,7 +1970,7 @@ body{
   display:flex;
   justify-content:center;
   position:absolute;
-  left:500px;
+  left:120px;
   top:120px;
   border:5px solid black;
   display:none;
@@ -1981,14 +1981,14 @@ body{
   font-size:35px;
   font-weight:bolder;
   position:absolute;
-  left:530px;
+  left:160px;
   top:570px;
   z-index:1;
   display:none;
 }
 #cscore
 {
-  width:350px;
+  width:750px;
   height:500px;
   background-color:aqua;
   font-size:30px;
@@ -1996,7 +1996,7 @@ body{
   display:flex;
   justify-content:center;
   position:absolute;
-  left:500px;
+  left:120px;
   top:120px;
   border:5px solid black;
   display:none;
