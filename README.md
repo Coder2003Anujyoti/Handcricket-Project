@@ -1,1 +1,2 @@
-Introduction Project.
+
+"Welcome to the Handcricket game repository! 🏏 This is a fun and interactive cricket game where players can enjoy the thrill of cricket using their hands! ✋ Whether you're batting or bowling, the game offers a realistic experience with smooth controls, intuitive gameplay, and exciting features. 🏃‍♂️💨 It's perfect for cricket fans looking to test their skills in a casual setting! 🏆 Dive into the code, contribute, and make this game even better! 🎮💻 Let's play some hand cricket! 🙌"
