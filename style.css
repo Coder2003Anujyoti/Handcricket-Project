@@ -12,6 +12,9 @@ body{
   position:relative;
   top:10px;
 }
+#images-container{
+  display:none;
+}
 #player-details
 { width:750px;
   height:950px;
@@ -2013,7 +2016,9 @@ body{
   z-index:1;
   display:none;
 }
-
+#images-container{
+  display:none;
+}
 
 }
   
