@@ -1,2 +1,16 @@
+# Hand Cricket Game 🏏
 
-"Welcome to the Handcricket game repository! 🏏 This is a fun and interactive cricket game where players can enjoy the thrill of cricket using their hands! ✋ Whether you're batting or bowling, the game offers a realistic experience with smooth controls, intuitive gameplay, and exciting features. 🏃‍♂️💨 It's perfect for cricket fans looking to test their skills in a casual setting! 🏆 Dive into the code, contribute, and make this game even better! 🎮💻 Let's play some hand cricket! 🙌"
+Welcome to the Hand Cricket game! 🏆 A fun and simple cricket game where you can enjoy playing cricket just like the real game! Perfect for cricket lovers! 🇮🇳
+
+## Features ⚡
+- **Batting and Bowling**: Take turns batting and bowling.
+- **Realistic Gameplay**: Enjoy a simple but fun cricket experience.
+- **Score Tracking**: Keep track of your runs and wickets.
+- **User-friendly**: Easy-to-play interface for all ages. 😎
+
+## How to Play 🎮
+1. **Batting**: Try to score as many runs as possible.
+2. **Bowling**: Bowl and try to get the batsman out.
+3. View your runs, wickets, and overall score after each round.
+
+Enjoy the game and become the cricket champion! 🏅
