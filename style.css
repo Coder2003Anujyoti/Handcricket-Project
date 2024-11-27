@@ -652,7 +652,6 @@ body{
   position:absolute;
   top:500px;
   left:130px;
-  background-color:green;
   border-radius:100%;
   font-size:160px;
   font-weight:bolder;
@@ -1221,7 +1220,6 @@ img
   position:absolute;
   top:180px;
   left:400px;
-  background-color:green;
   border-radius:100%;
   font-size:160px;
   font-weight:bolder;
