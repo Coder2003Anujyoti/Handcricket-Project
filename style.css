@@ -1,7 +1,14 @@
+*{
+  font-family:Arial,sans-serif;
+}
+#images-container{
+  display:none;
+}
 body{
   background:url('Kl.jpg');
   background-size:1020px 1840px;
   background-repeat:no-repeat;
+  overflow:hidden;
 }
 #player-image
 { width:500px;
@@ -11,9 +18,6 @@ body{
   align-items:center;
   position:relative;
   top:10px;
-}
-#images-container{
-  display:none;
 }
 #player-details
 { width:750px;
@@ -30,7 +34,6 @@ body{
   display:none;
   z-index:1;
   gap:35px;
-  border:2px solid white;
 }
 #player-name
 { font-size:65px;
@@ -93,7 +96,7 @@ body{
 #imp1
 { position:absolute;
   top:450px;
-  left:135px;
+  left:165px;
   font-size:65px;
   font-weight:bolder;
   display:none;
@@ -141,6 +144,8 @@ body{
   font-size:65px;
   font-weight:bolder;
   display:none;
+  background-color:white;
+  border:2px solid white;
 }
 #no1
 { width:250px;
@@ -151,11 +156,13 @@ body{
   font-size:65px;
   font-weight:bolder;
   display:none;
+  background-color:white;
+  border:2px solid white;
 }
 #imp
 { position:absolute;
   top:450px;
-  left:60px;
+  left:100px;
   font-size:65px;
   font-weight:bolder;
   display:none;
@@ -170,6 +177,8 @@ body{
   font-size:65px;
   font-weight:bolder;
   display:none;
+  background-color:white;
+  border:2px solid white;
 }
 #no
 { width:250px;
@@ -180,6 +189,8 @@ body{
   font-size:65px;
   font-weight:bolder;
   display:none;
+  background-color:white;
+  border:2px solid white;
 }
 #byus
 {
@@ -446,21 +457,6 @@ body{
   top:180px;
   display:none;
 }
-#results
-{ display:flex;
-  align-items:center;
-  justify-content:center;
-  width:750px;
-  height:500px;
-  left:100px;
-  position:absolute;
-  top:200px;
-  background-color:aqua;
-  font-size:50px;
-  font-weight:bold;
-  border:5px solid black;
-  display:none;
-}
 #tcsk1
 { width:950px;
   height:0px;
@@ -687,7 +683,7 @@ body{
   border:5px solid black;
 }
 #tp
-{ font-size:75px;
+{ font-size:65px;
   font-weight:bolder;
   position:absolute;
   top:150px;
@@ -791,7 +787,7 @@ body{
 #overs
 { position:absolute;
   top:550px;
-  left:650px;
+  left:605px;
   width:250px;
   height:70px;
   font-size:45px;
@@ -858,10 +854,10 @@ body{
   font-weight:bolder;
 }
 #card
-{ font-size:55px;
+{ font-size:65px;
   position:absolute;
   left:320px;
-  top:60px;
+  top:30px;
   text-decoration:underline;
   text-underline-offset:20px;
   color:white;
@@ -883,34 +879,44 @@ body{
   border:5px solid black;
 }
 #toss
-{ width:250px;
+{
+  width:250px;
   height:100px;
   position:absolute;
-  top:500px;
-  left:350px;
+  top:550px;
+  left:380px;
   font-size:65px;
   font-weight:bolder;
   display:none;
+  background-color:white;
+  color:black;
+  border:2px solid white;
 }
 #bat
 { width:250px;
   height:100px;
   position:absolute;
   top:700px;
-  left:100px;
+  left:200px;
   font-size:65px;
   font-weight:bolder;
   display:none;
+  background-color:white;
+  color:black;
+  border:2px solid white;
 }
 #ball
 { width:250px;
   height:100px;
   position:absolute;
   top:700px;
-  left:600px;
+  left:550px;
   font-size:65px;
   font-weight:bolder;
   display:none;
+  background-color:white;
+  color:black;
+  border:2px solid white;
 }
 
 #demo
@@ -1037,12 +1043,12 @@ img
 { font-size:65px;
   position:absolute;
   top:500px;
-  left:250px;
+  left:300px;
   font-weight:bolder;
 }
 #pls
-{ width:112vw;
-  height:205vw;
+{ width:990px;
+  height:2092px;
   background-color:black;
   position:absolute;
   top:0px;
@@ -1053,7 +1059,7 @@ img
   align-items:center;
   font-weight:bolder;
   flex-direction:column;
-  gap:20px;
+  gap:10px;
   display:none;
   z-index:1;
   color:white;
@@ -1068,21 +1074,21 @@ img
   justify-content:center;
   align-items:center;
   position:relative;
-  top:100px;
+  top:60px;
   font-size:65px;
   font-weight:bolder;
   border:5px solid black;
 }
 #pls1
 { position:relative;
-  top:50px;
+  top:30px;
   text-decoration:underline;
   text-underline-offset:16px;
   font-weight:bolder;
 }
 #cls
-{ width:112vw;
-  height:205vw;
+{ width:990px;
+  height:2092px;
   background-color:black;
   position:absolute;
   top:0px;
@@ -1093,7 +1099,7 @@ img
   align-items:center;
   font-weight:bolder;
   flex-direction:column;
-  gap:20px;
+  gap:10px;
   display:none;
   z-index:1;
   color:white;
@@ -1108,14 +1114,14 @@ img
   justify-content:center;
   align-items:center;
   position:relative;
-  top:100px;
+  top:60px;
   font-size:65px;
   font-weight:bolder;
   border:5px solid black;
 }
 #cls1
 { position:relative;
-  top:50px;
+  top:30px;
   text-decoration:underline;
   text-underline-offset:16px;
   font-weight:bolder;
@@ -1166,8 +1172,8 @@ img
 }
 #pls1
 { position:absolute;
-  top:250px;
-  left:150px;
+  top:150px;
+  left:250px;
   text-decoration:underline;
   text-underline-offset:16px;
   font-weight:bolder;
@@ -1208,8 +1214,8 @@ img
 }
 #cls1
 { position:absolute;
-  top:250px;
-  left:150px;
+  top:150px;
+  left:250px;
   text-decoration:underline;
   text-underline-offset:16px;
   font-weight:bolder;
@@ -1220,6 +1226,7 @@ img
   position:absolute;
   top:180px;
   left:400px;
+  background-color:green;
   border-radius:100%;
   font-size:160px;
   font-weight:bolder;
@@ -1463,7 +1470,7 @@ body{
   display:none;
 }
 #pcsk,#pcsk1
-{ width:150px;
+{ width:130px;
   height:250px;
   
 }
@@ -1586,7 +1593,7 @@ body{
   color:white;
 }
 #prr,#prr1
-{ width:150px;
+{ width:130px;
   height:250px;
 }
 #trr1,#trr
@@ -1602,7 +1609,7 @@ body{
   gap:15px;
 }
 #prcb,#prcb1
-{ width:150px;
+{ width:130px;
   height:250px;
 }
 #trcb1,#trcb
@@ -1618,7 +1625,7 @@ body{
   gap:15px;
 }
 #ppwi,#ppwi1
-{ width:150px;
+{ width:130px;
   height:250px;
 }
 #tpwi1,#tpwi
@@ -1635,7 +1642,7 @@ body{
 }
 
 #pkkr,#pkkr1
-{ width:150px;
+{ width:130px;
   height:250px;
 }
 #tkkr1,#tkkr
@@ -1651,7 +1658,7 @@ body{
   gap:15px;
 }
 #psrh,#psrh1
-{ width:150px;
+{ width:130px;
   height:250px;
 }
 #tsrh1,#tsrh
@@ -1667,7 +1674,7 @@ body{
   gap:15px;
 }
 #pkxip,#pkxip1
-{ width:150px;
+{ width:130px;
   height:250px;
 }
 #tkxip1,#tkxip
@@ -1683,7 +1690,7 @@ body{
   gap:15px;
 }
 #pmi,#pmi1
-{ width:150px;
+{ width:130px;
   height:250px;
 }
 #tmi1,#tmi
@@ -1699,7 +1706,7 @@ body{
   gap:15px;
 }
 #pdd,#pdd1
-{ width:150px;
+{ width:130px;
   height:250px;
 }
 #tdd1,#tdd
@@ -1770,7 +1777,7 @@ body{
 #Player
 { position:absolute;
   font-size:45px;
-  left:105px;
+  left:130px;
   top:15px;
   display:block;
   color:white;
@@ -1814,12 +1821,12 @@ body{
 }
 #demo
 { width:550px;
-  height:80px;
+  height:50px;
   background-color:aqua;
   position:absolute;
   left:380px;
-  top:20px;
-  font-size:30px;
+  top:50px;
+  font-size:25px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -1828,13 +1835,13 @@ body{
   display:none;
 }
 #demo1
-{ width:450px;
-  height:80px;
+{ width:350px;
+  height:50px;
   background-color:hotpink;
   position:absolute;
-  left:430px;
-  top:450px;
-  font-size:30px;
+  left:490px;
+  top:500px;
+  font-size:25px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -1843,13 +1850,13 @@ body{
   display:none;
 }
 #laura
-{ width:350px;
-  height:70px;
+{ width:250px;
+  height:50px;
   background-color:aqua;
   position:absolute;
-  top:550px;
-  left:490px;
-  font-size:30px;
+  top:570px;
+  left:540px;
+  font-size:25px;
   font-weight:bolder;
   justify-content:center;
   align-items:center;
@@ -1963,7 +1970,7 @@ body{
   display:none;
 }
 #pscore
-{ width:750px;
+{ width:350px;
   height:500px;
   background-color:aqua;
   font-size:30px;
@@ -1971,7 +1978,7 @@ body{
   display:flex;
   justify-content:center;
   position:absolute;
-  left:120px;
+  left:500px;
   top:120px;
   border:5px solid black;
   display:none;
@@ -1982,14 +1989,14 @@ body{
   font-size:35px;
   font-weight:bolder;
   position:absolute;
-  left:160px;
+  left:530px;
   top:570px;
   z-index:1;
   display:none;
 }
 #cscore
 {
-  width:750px;
+  width:350px;
   height:500px;
   background-color:aqua;
   font-size:30px;
@@ -1997,7 +2004,7 @@ body{
   display:flex;
   justify-content:center;
   position:absolute;
-  left:120px;
+  left:500px;
   top:120px;
   border:5px solid black;
   display:none;
@@ -2014,11 +2021,7 @@ body{
   z-index:1;
   display:none;
 }
-#images-container{
-  display:none;
-}
+
 
 }
   
-
-
