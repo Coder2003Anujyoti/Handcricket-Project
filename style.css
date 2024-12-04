@@ -70,6 +70,21 @@ body{
   left:60px;
   display:none;
 }
+#results
+{ display:flex;
+  align-items:center;
+  justify-content:center;
+  width:750px;
+  height:500px;
+  left:100px;
+  position:absolute;
+  top:200px;
+  background-color:aqua;
+  font-size:50px;
+  font-weight:bold;
+  border:5px solid black;
+  display:none;
+}
 #f
 { color:white;
   font-weight:bolder;
