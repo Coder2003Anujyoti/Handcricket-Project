@@ -1147,7 +1147,7 @@ img
 { font-size:45px;
   position:absolute;
   top:150px;
-  left:450px;
+  left:430px;
   font-weight:bolder;
   display:block;
 }
@@ -1187,8 +1187,8 @@ img
 }
 #pls1
 { position:absolute;
-  top:150px;
-  left:250px;
+  top:250px;
+  left:150px;
   text-decoration:underline;
   text-underline-offset:16px;
   font-weight:bolder;
@@ -1229,8 +1229,8 @@ img
 }
 #cls1
 { position:absolute;
-  top:150px;
-  left:250px;
+  top:250px;
+  left:150px;
   text-decoration:underline;
   text-underline-offset:16px;
   font-weight:bolder;
@@ -1254,8 +1254,8 @@ img
 }
 #overs
 { position:absolute;
-  top:250px;
-  left:750px;
+  top:247px;
+  left:805px;
   width:150px;
   height:50px;
   font-size:35px;
@@ -1485,7 +1485,7 @@ body{
   display:none;
 }
 #pcsk,#pcsk1
-{ width:130px;
+{ width:150px;
   height:250px;
   
 }
@@ -1608,7 +1608,7 @@ body{
   color:white;
 }
 #prr,#prr1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #trr1,#trr
@@ -1624,7 +1624,7 @@ body{
   gap:15px;
 }
 #prcb,#prcb1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #trcb1,#trcb
@@ -1640,7 +1640,7 @@ body{
   gap:15px;
 }
 #ppwi,#ppwi1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tpwi1,#tpwi
@@ -1657,7 +1657,7 @@ body{
 }
 
 #pkkr,#pkkr1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tkkr1,#tkkr
@@ -1673,7 +1673,7 @@ body{
   gap:15px;
 }
 #psrh,#psrh1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tsrh1,#tsrh
@@ -1689,7 +1689,7 @@ body{
   gap:15px;
 }
 #pkxip,#pkxip1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tkxip1,#tkxip
@@ -1705,7 +1705,7 @@ body{
   gap:15px;
 }
 #pmi,#pmi1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tmi1,#tmi
@@ -1721,7 +1721,7 @@ body{
   gap:15px;
 }
 #pdd,#pdd1
-{ width:130px;
+{ width:150px;
   height:250px;
 }
 #tdd1,#tdd
@@ -1792,7 +1792,7 @@ body{
 #Player
 { position:absolute;
   font-size:45px;
-  left:130px;
+  left:105px;
   top:15px;
   display:block;
   color:white;
@@ -1825,7 +1825,7 @@ body{
   display:flex;
   flex-wrap:wrap;
     gap:15px;
-    display:none;
+  display: none;  
   
 }
 #click1,#click2,#click3,#click4,#click5,#click6
@@ -1836,12 +1836,12 @@ body{
 }
 #demo
 { width:550px;
-  height:50px;
+  height:80px;
   background-color:aqua;
   position:absolute;
   left:380px;
-  top:50px;
-  font-size:25px;
+  top:20px;
+  font-size:30px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -1850,13 +1850,13 @@ body{
   display:none;
 }
 #demo1
-{ width:350px;
-  height:50px;
+{ width:450px;
+  height:80px;
   background-color:hotpink;
   position:absolute;
-  left:490px;
-  top:500px;
-  font-size:25px;
+  left:430px;
+  top:450px;
+  font-size:30px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -1865,19 +1865,19 @@ body{
   display:none;
 }
 #laura
-{ width:250px;
-  height:50px;
+{ width:350px;
+  height:70px;
   background-color:aqua;
   position:absolute;
-  top:570px;
-  left:540px;
-  font-size:25px;
+  top:550px;
+  left:490px;
+  font-size:30px;
   font-weight:bolder;
   justify-content:center;
   align-items:center;
   display:flex;
   border:5px solid black;
-  display:none;
+  display: none;  
 }
 #result
 { width:300px;
@@ -1928,7 +1928,7 @@ body{
   justify-content:center;
   width:450px;
   height:200px;
-  left:350px;
+  left:300px;
   position:absolute;
   top:200px;
   background-color:aqua;
@@ -1985,7 +1985,7 @@ body{
   display:none;
 }
 #pscore
-{ width:350px;
+{ width:750px;
   height:500px;
   background-color:aqua;
   font-size:30px;
@@ -1993,7 +1993,7 @@ body{
   display:flex;
   justify-content:center;
   position:absolute;
-  left:500px;
+  left:120px;
   top:120px;
   border:5px solid black;
   display:none;
@@ -2004,14 +2004,14 @@ body{
   font-size:35px;
   font-weight:bolder;
   position:absolute;
-  left:530px;
+  left:160px;
   top:570px;
   z-index:1;
   display:none;
 }
 #cscore
 {
-  width:350px;
+  width:750px;
   height:500px;
   background-color:aqua;
   font-size:30px;
@@ -2019,7 +2019,7 @@ body{
   display:flex;
   justify-content:center;
   position:absolute;
-  left:500px;
+  left:120px;
   top:120px;
   border:5px solid black;
   display:none;
@@ -2039,4 +2039,3 @@ body{
 
 
 }
-  
