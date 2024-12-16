@@ -1074,14 +1074,14 @@ img
   align-items:center;
   font-weight:bolder;
   flex-direction:column;
-  gap:10px;
+  gap:1vh;
   display:none;
   z-index:1;
   color:white;
 }
 #xx
 { width:900px;
-  height:130px;
+  height:150px;
   border-radius:30px;
   background-color:white;
   color:black;
@@ -1089,7 +1089,7 @@ img
   justify-content:center;
   align-items:center;
   position:relative;
-  top:20px;
+  top:1vh;
   font-size:65px;
   font-weight:bolder;
   border:5px solid black;
@@ -1114,14 +1114,14 @@ img
   align-items:center;
   font-weight:bolder;
   flex-direction:column;
-  gap:10px;
+  gap:1vh;
   display:none;
   z-index:1;
   color:white;
 }
 #xx1
 { width:900px;
-  height:130px;
+  height:150px;
   border-radius:30px;
   background-color:white;
   color:black;
@@ -1129,7 +1129,7 @@ img
   justify-content:center;
   align-items:center;
   position:relative;
-  top:20px;
+  top:1vh;
   font-size:65px;
   font-weight:bolder;
   border:5px solid black;
