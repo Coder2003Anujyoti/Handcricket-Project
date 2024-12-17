@@ -1074,14 +1074,14 @@ img
   align-items:center;
   font-weight:bolder;
   flex-direction:column;
-  gap:1vh;
+  gap:0.5vh;
   display:none;
   z-index:1;
   color:white;
 }
 #xx
 { width:900px;
-  height:150px;
+  height:130px;
   border-radius:30px;
   background-color:white;
   color:black;
@@ -1089,7 +1089,7 @@ img
   justify-content:center;
   align-items:center;
   position:relative;
-  top:1vh;
+  top:0.8vh;
   font-size:65px;
   font-weight:bolder;
   border:5px solid black;
@@ -1114,14 +1114,14 @@ img
   align-items:center;
   font-weight:bolder;
   flex-direction:column;
-  gap:1vh;
+  gap:0.5vh;
   display:none;
   z-index:1;
   color:white;
 }
 #xx1
 { width:900px;
-  height:150px;
+  height:130px;
   border-radius:30px;
   background-color:white;
   color:black;
@@ -1129,7 +1129,7 @@ img
   justify-content:center;
   align-items:center;
   position:relative;
-  top:1vh;
+  top:0.8vh;
   font-size:65px;
   font-weight:bolder;
   border:5px solid black;
